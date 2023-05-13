@@ -45,7 +45,7 @@
             <div class="col-md-6">
                 <div class="form-group">
                     <label for="cep">CEP</label>
-                    <input type="text" id="cep" name="cep" placeholder="00000-000" required>
+                    <input type="text" id="cep" name="cep" placeholder="00000-000" onblur="pesquisacep(this.value);">
                 </div>
             </div>
             <div class="col-md-6">
